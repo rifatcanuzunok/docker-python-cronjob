@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  cron:
+    image: cron
+    build:
+      context: .
+      dockerfile: ./Dockerfile
